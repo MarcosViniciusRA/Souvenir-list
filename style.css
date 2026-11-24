@@ -1,0 +1,14 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.div-forms{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.row-forms{
+    display: flex;
+}

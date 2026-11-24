@@ -1,0 +1,1 @@
+const bntNovaLista = document.getElementById("criarLista");
