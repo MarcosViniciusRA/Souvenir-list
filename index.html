@@ -11,12 +11,11 @@
         <H1> Souvenir list</H1>
     </div>
     <form action="">
-        <label for="nome-lista">Nova lista:</label>
-        <input type="text" id="nome-lista" name="nome-lista" required>
-        <button id="criarLista">Criar</button>
-        <hr>
-        <h2>Lista: </h2>
-        <h3>Adicionar nova obra á lista</h3>
+        <div class="div-row">
+            <label for="lista" style="font-size: 24px;"><strong>Nova Lista: </strong></label>
+            <input type="text" id="lista" name="lista" required >
+        </div>
+        <br>
         <label for="nome-obra">Nome da obra:</label>
         <input type="text" id="nome-obra" name="nome-obra" required>
         <br>
@@ -79,6 +78,24 @@
             <button>Concluir</button>
         </div>
     </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+            </tr>
+            <tr>
+                <th>História</th>
+                <th>Direção de arte</th>
+                <th>Constância</th>
+                <th>Trilha sonora</th>
+                <th>Avaliação</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
     <br>
     <hr>
     <h2>Listas Criadas</h2>
